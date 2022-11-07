@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Stone,Paper,Scissor with PC</title>
+  <script src="/Stone,Paper,Scissor Game/app.js" defer></script>
+  <link rel="stylesheet" href="/Stone,Paper,Scissor Game/app..css">
+</head>
+<body>
+    <div id="backdrop"></div>
+    <div class="modal card" id="input-modal">
+      <div class="modal__content">
+        <label for="title">Enter "STONE" or "PAPER" or "SCISSOR"</label>
+        <input type="text" name="userInput" id="userInput" />
+      </div>
+      <div class="modal__actions">
+        <button class="btn btn--passive">Cancel</button>
+        <button class="btn btn--success">Ok</button>
+      </div>
+    </div>
+    <div class="modal card" id="invalidInput-modal">
+        <h2 class="modal__title">Invalid Input...</h2>
+        <p class="modal__content">
+            Will You Try Again...?
+        </p>
+        <div class="modal__actions">
+          <button class="btn btn--passive">No</button>
+          <button class="btn btn--tryAgain">Yes</button>
+        </div>
+      </div>
+      <div class="modal card" id="playAgain-modal">
+        <h2 class="modal__title">Hope You Enjoyed...</h2>
+        <p class="modal__content">
+          Do you want to play again?
+        </p>
+        <div class="modal__actions">
+          <button class="btn btn--passive">No</button>
+          <button class="btn btn--playAgain">Yes</button>
+        </div>
+      </div>
+  <header>
+    <h1>Play Stone Paper Scissor</h1>
+    <button id="start-game-btn">Start-Game</button>
+  </header>
+</body>
+</html>
