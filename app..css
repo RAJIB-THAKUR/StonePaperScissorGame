@@ -16,23 +16,26 @@
   
   header {
     width: 100%;
-    height: 6rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2.5rem;
     background: #00329e;
+    position: absolute;
   }
   
   header h1 {
-    margin: 0;
+    height: auto;
+    width: auto;
     color: white;
-    font-size: 2.5rem;
+    font-size: 1rem;
+    position: relative;
   }
   
   header button {
     font: inherit;
-    padding: 1.2rem 1rem;
+    padding: 0.5rem 1rem;
     background: #f67722;
     border: 1px solid #f67722;
     color: white;
